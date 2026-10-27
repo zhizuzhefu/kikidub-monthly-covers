@@ -1,3 +1,5 @@
+旧发布入口已于 2026-10-27 停用。封面配置已迁至 https://github.com/jannymax/kikidub-monthly-covers ，后续仅在新仓库维护。本仓库不再提供 monthly-album-covers.json。
+
 KikiDub 月度封面配置维护
 
 本仓库独立管理月度专辑配置和自定义分层 PNG。支持此能力的 App 首次发布后，新的插画、字体和构图可以直接发布到仓库，日历入口、黑胶标签和报告首图同步使用完整封面。现有六月设计已作为六层示例接入。
@@ -41,7 +43,7 @@ covers 中每项包含 motif（sprout/echo/orbit/ribbon）、palette（backgroun
 
 四、更新、缓存和回退
 
-固定目录地址：https://raw.githubusercontent.com/zhizuzhefu/kikidub-monthly-covers/main/monthly-album-covers.json
+固定目录地址：https://raw.githubusercontent.com/jannymax/kikidub-monthly-covers/main/monthly-album-covers.json
 
 目录成功更新后，当地自然日内不再重复刷新；失败至少间隔五分钟重试。图片按当前查看的封面加载和缓存，全部图片通过校验后才替换之前的完整封面。缺图、断网、哈希错误、超限时保留完整旧版本；没有完整缓存时使用原生模板。
 
